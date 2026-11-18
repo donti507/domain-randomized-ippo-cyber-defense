@@ -1,0 +1,19 @@
+﻿cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Structural and Attack-Mechanism Generalization in a Domain-Randomized Detector-Responder Framework for Autonomous Cyber Defense"
+type: software
+authors:
+  - family-names: "<LAST NAME>"
+    given-names: "<FIRST NAME>"
+date-released: 2026-11-18
+license: MIT
+repository-code: "https://github.com/donti507/domain-randomized-ippo-cyber-defense"
+preferred-citation:
+  type: conference-paper
+  title: "Structural and Attack-Mechanism Generalization in a Domain-Randomized Detector-Responder Framework for Autonomous Cyber Defense"
+  collection-title: "29th International Conference on Computer and Information Technology (ICCIT 2026)"
+  year: 2026
+  authors:
+    - family-names: "<LAST NAME>"
+      given-names: "<FIRST NAME>"
+

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyberdr"
+version = "1.0.0"
+description = "Domain-randomized Independent-PPO Detector/Responder cyber defense in CyberBattleSim (IEEE ICCIT 2026)"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+dependencies = [
+  "numpy==1.26.4",
+  "gymnasium==0.29.1",
+  "stable-baselines3==2.3.2",
+  "torch",
+  "matplotlib>=3.9",
+  "cyberbattlesim @ git+https://github.com/microsoft/CyberBattleSim.git",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
