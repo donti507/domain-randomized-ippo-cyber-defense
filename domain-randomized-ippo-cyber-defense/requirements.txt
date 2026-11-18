@@ -1,8 +1,0 @@
-# Python 3.10 - 3.12 (numpy 1.26.4 has no 3.13 wheels). Then:  pip install -r requirements.txt && pip install -e .
-numpy==1.26.4
-gymnasium==0.29.1
-stable-baselines3==2.3.2
-torch
-matplotlib>=3.9
-pytest
-git+https://github.com/microsoft/CyberBattleSim.git
